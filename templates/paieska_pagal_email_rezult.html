@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+<h3>paieška vykdoma pagal email adreso dalį: "{{vardas}}"</h3>
+<h3>paieškos rezultatai:</h3>
+{%for x in rez%}
+<p>{{x}}</p>
+{%endfor%}
+{% endblock %}

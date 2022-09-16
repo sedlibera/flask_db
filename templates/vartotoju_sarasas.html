@@ -1,0 +1,7 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2>Visi vartotojų duomenys:</h2>
+{%for x in vartotojai%}
+<p>{{x}}</p>
+{%endfor%}
+{% endblock %}
